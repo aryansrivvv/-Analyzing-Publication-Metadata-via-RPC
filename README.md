@@ -1,9 +1,3 @@
-```markdown
-# Analyzing Publication Metadata via RPC
-
-**Author:** [Your Name]  
-**Student ID:** MDS202508  
-
 ## Project Overview
 This project implements a distributed Map-Reduce architecture in Python to analyze a remote dataset of publication titles. The application interfaces with a remote RPC server to authenticate, retrieve data, and compute the Top 10 most frequent first words across 1,000 publication files (`pub_0.txt` to `pub_999.txt`), ultimately submitting the findings back to the server for automated verification.
 
@@ -65,4 +59,3 @@ To build and verify the Docker image locally before exporting:
    ```bash
    python app.py
    ```
-```
